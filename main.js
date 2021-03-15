@@ -2,7 +2,17 @@
 // │ Your code here! │	
 // └─────────────────┘
 
+function isAdmin(user) {
+    if (user.userRole === 'ADMIN') {
+        return true;
+    } else {
+        return false;
+    }
+}
 
+function isAdminAlternate(user) {
+    return user.userRole === 'ADMIN';
+}
 
 // ┌─────────────────────────────────────┐
 // │ Do not modify code below this line. │
